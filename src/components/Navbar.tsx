@@ -48,7 +48,7 @@ const Navbar = () => {
         </nav>
       </div>
       {/* Div below is added to compensate for the height of the navbar */}
-      <div className="h-18" />
+      <div className="h-[68px]" />
     </>
   );
 };

@@ -1,6 +1,11 @@
-import ThemeSwitcher from "@/components/ThemeSwitcher";
-import Image from "next/image";
+"use client";
+
+import Filters from "@/components/Filters";
 
 export default function Home() {
-  return <main>{/* <ThemeSwitcher /> */}</main>;
+  return (
+    <main>
+      <Filters />
+    </main>
+  );
 }
