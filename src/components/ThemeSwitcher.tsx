@@ -19,7 +19,9 @@ const ThemeSwitcher = () => {
   };
 
   return (
-    <button onClick={handleClick}>{theme === "light" ? "🌙" : "🌞"}</button>
+    <button className="text-xl" onClick={handleClick}>
+      {theme === "light" ? "🌙" : "🌞"}
+    </button>
   );
 };
 
