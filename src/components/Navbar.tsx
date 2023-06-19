@@ -24,12 +24,7 @@ const Navbar = () => {
               >
                 Logout
               </button>
-              <button
-                onClick={() => router.push("/order/create-order")}
-                className="p-4 rounded-full bg-slate-500"
-              >
-                <FaCartArrowDown className="text-white text-xl" />
-              </button>
+
               <button
                 onClick={() => router.push("/bookmark")}
                 className="p-4 rounded-full bg-slate-500"
