@@ -1,9 +1,7 @@
-import Filters from "@/components/Filters";
-
 export default function Home() {
   return (
     <main>
-      <Filters />
+      <h1 className="text-xl p-4">Welcome to Home Page</h1>
     </main>
   );
 }
