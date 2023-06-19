@@ -6,6 +6,6 @@ export const getPosts = async () => {
 };
 
 export const getPost = async (id: number) => {
-  const res = await fetch(apiUrl + `/api/posts/${id}`);
+  const res = await fetch(apiUrl + `/api/posts/${id}?populate=*`);
   return res.json();
 };
