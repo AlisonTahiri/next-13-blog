@@ -1,4 +1,4 @@
-const apiUrl = process.env.DB_URL;
+const apiUrl = process.env.NEXT_PUBLIC_DATABASE_URL;
 
 export const getPosts = async () => {
   const res = await fetch(apiUrl + "/api/posts?populate=*");
